@@ -1,0 +1,137 @@
+/* Additional CSS for shapes */
+.shape {
+    position: absolute;
+    pointer-events: none;
+}
+
+.shape-square {
+    width: 64px;
+    height: 64px;
+    border: 2px solid var(--black);
+}
+
+.shape-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--black);
+}
+
+.shape-triangle .triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 50px solid;
+}
+
+.shape-diamond {
+    width: 64px;
+    height: 64px;
+    border: 2px solid var(--black);
+    transform: rotate(45deg);
+}
+
+.shape-rectangle {
+    width: 96px;
+    height: 48px;
+    border: 2px solid var(--black);
+}
+
+.shape-hexagon .hexagon {
+    position: relative;
+    width: 64px;
+    height: 56px;
+    background-color: inherit;
+    border: 2px solid var(--black);
+}
+
+.shape-hexagon .hex-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 7px solid transparent;
+    border-right: 8px solid var(--black);
+    border-top: 7px solid transparent;
+    transform: translateX(-100%);
+}
+
+.shape-hexagon .hex-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 8px solid var(--black);
+    border-bottom: 7px solid transparent;
+    transform: translateX(-100%);
+}
+
+.shape-square-accent .square-with-accent {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border: 2px solid var(--black);
+    transform: rotate(12deg);
+}
+
+.shape-square-accent .accent {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    border-top: 2px solid var(--black);
+    border-left: 2px solid var(--black);
+}
+
+.shape-yellow {
+    background-color: var(--yellow-400);
+}
+
+.shape-red {
+    background-color: var(--red-400);
+}
+
+.shape-cyan {
+    background-color: var(--cyan-400);
+}
+
+.shape-blue {
+    background-color: var(--blue-400);
+}
+
+.shape-yellow .triangle {
+    border-bottom-color: var(--yellow-400);
+}
+
+.shape-red .triangle {
+    border-bottom-color: var(--red-400);
+}
+
+.shape-cyan .triangle {
+    border-bottom-color: var(--cyan-400);
+}
+
+.shape-blue .triangle {
+    border-bottom-color: var(--blue-400);
+}
+
+.shape-square-accent.shape-yellow .accent {
+    background-color: var(--cyan-400);
+}
+
+.shape-square-accent.shape-red .accent {
+    background-color: var(--blue-400);
+}
+
+.shape-square-accent.shape-cyan .accent {
+    background-color: var(--yellow-400);
+}
+
+.shape-square-accent.shape-blue .accent {
+    background-color: var(--red-400);
+}

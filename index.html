@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Alwn Ibrhim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <header class="navbar">
+        <div class="logo">
+            <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+            </svg>
+            <span>Wan Ibrhim</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#hero" class="active">About me</a>
+            <a href="#experience">Resume</a>
+            <a href="#portfolio">Work</a>
+        </nav>
+
+        <a href="#contact" class="btn-primary">Get in touch!</a>
+    </header>
+
+    <main>
+        <section id="hero" class="section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Hello, <br>
+                            I'm Wan!
+                        </h1>
+
+                        <p class="hero-text">
+                            I am a self-taught Graphic Designer based in Viet Nam with extensive marketing and
+                            communication experience.
+                            I am currently living in France and pursuing a degree in Digital Web & Project Management.
+                        </p>
+
+                        <a href="https://linkedin.com/in/han-nnb" target="_blank" class="linkedin-link">
+                            <i data-lucide="linkedin"></i>
+                            linkedin.com/in/han-nnb
+                        </a>
+                    </div>
+
+                    <div class="hero-image-container">
+                        <div class="hero-image-bg"></div>
+
+                        <div class="hero-image">
+                            <img src="/potho.JPG" alt="Han Nguyen">
+                        </div>
+
+                        <div class="hero-badge date">14nd Feb 2006</div>
+                        <div class="hero-badge nationality">Indonesya</div>
+
+                        <div class="contact-card">
+                            <h3>Contact</h3>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i data-lucide="map-pin"></i>
+                                    <span>Alwn, Indns</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i data-lucide="mail"></i>
+                                    <span>alwanibrahim142@gmail.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i data-lucide="phone"></i>
+                                    <span>08 12 34 20 23 56</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="experience-grid">
+                    <div class="experience-column">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                                </svg>
+                                <div class="timeline-year">2024</div>
+                                <div class="timeline-title">Mobile App Developer</div>
+                                <div class="timeline-company">Flutter & Laravel Specialist</div>
+                                <!-- <div class="timeline-location">Bi Ethic, Narbonne, France</div> -->
+                            </div>
+
+                            <div class="timeline-item">
+                                <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                                </svg>
+                                <div class="timeline-year">2024</div>
+                                <div class="timeline-title">Shopee Affiliate Marketer</div>
+                                <!-- <div class="timeline-company">Consulted with clients, created logos, posters,
+                                    presentations based on their requirements</div> -->
+                            </div>
+
+                            <div class="timeline-item">
+                                <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                                </svg>
+                                <div class="timeline-year">2024</div>
+                                <div class="timeline-title">Graphic Designer</div>
+                                <div class="timeline-company">Designed promotional materials for events</div>
+                                <!-- <div class="timeline-location">Songhan Incubator, Viet Nam</div> -->
+                            </div>
+                        </div>
+
+                        <div class="skills-section">
+                            <h3>Skills</h3>
+                            <div class="skills-tags">
+                                <span class="skill-tag">#Creativity</span>
+                                <span class="skill-tag">#Communication</span>
+                                <span class="skill-tag">#Detail-oriented</span>
+                                <span class="skill-tag">#Adaptability</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education-column">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                                </svg>
+                                <div class="timeline-year">2022-2023</div>
+                                <div class="timeline-title">Digital Web & Project Management</div>
+                                <!-- <div class="timeline-company">Digital Web & Project Management</div> -->
+                            </div>
+
+                            <div class="timeline-item">
+                                <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                                </svg>
+                                <div class="timeline-year">2021-2022</div>
+                                <div class="timeline-title">Flutter & Web Development</div>
+                                <div class="timeline-company">Freelance Developer & Content Creator</div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                                </svg>
+                                <div class="timeline-year">2017-2020</div>
+                                <div class="timeline-title">Laravel Backend Development</div>
+                                <div class="timeline-company">Freelance & Personal Projects</div>
+                            </div>
+                        </div>
+
+                        <div class="software-skills">
+                            <h3>Software Skills</h3>
+                            <div class="software-grid">
+                                <div class="software-item">Canva</div>
+                                <div class="software-item">Figma</div>
+                                <div class="software-item">ChatGPT</div>
+                                <div class="software-item">Notion</div>
+                                <div class="software-item">AdsPower</div>
+                                <div class="software-item">GitHub</div>
+
+                            </div>
+                        </div>
+
+                        <div class="coding-skills">
+                            <h3>Coding skills</h3>
+                            <div>Basic knowledge of:</div>
+                            <div class="coding-grid">
+                                <div>HTML</div>
+                                <div>PHP</div>
+                                <div>CSS</div>
+                                <div>SQL</div>
+                                <div>JavaScript</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <div class="portfolio-image-container">
+                        <div class="portfolio-image-bg"></div>
+
+                        <div class="portfolio-image">
+                            <img src="/image.jpeg" alt="Portfolio image">
+                        </div>
+
+                        <div class="portfolio-diamond bottom">
+                            <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                            </svg>
+                        </div>
+                        <div class="portfolio-diamond top">
+                            <svg class="diamond-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content">
+                        <h1 class="portfolio-title">
+                            PORT<span class="outline-text">FOLIO</span>
+                        </h1>
+
+                        <p class="portfolio-text">
+                            I use design as a problem-solving tool. I approach problems in a rational and pragmatic way
+                            and seek the
+                            simplest and most functional solutions possible.
+                        </p>
+
+                        <div class="social-links">
+                            <div class="social-link">
+                                <span>BE:</span>
+                                <a href="https://behance.net/hannnb" target="_blank">/Alwn</a>
+                            </div>
+                            <div class="social-link">
+                                <span>IG:</span>
+                                <a href="https://instagram.com/han.nnb" target="_blank">@Alw.n</a>
+                            </div>
+                            <div class="social-link">
+                                <span>LI:</span>
+                                <a href="https://linkedin.com/in/han-nnb" target="_blank">/Alwnn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="skills-grid">
+                    <div class="languages-column">
+                        <h2 class="section-title">Language</h2>
+
+                        <div class="languages-grid">
+                            <div class="language-item">
+                                <div class="language-name">English</div>
+                                <div class="language-level">Fluent</div>
+                            </div>
+                            <div class="language-item">
+                                <div class="language-name">Java</div>
+                                <div class="language-level">Intermediate</div>
+                            </div>
+                            <div class="language-item">
+                                <div class="language-name">Ind</div>
+                                <div class="language-level">Native</div>
+                            </div>
+                        </div>
+
+                        <h2 class="section-title">Hobbies & Interests</h2>
+
+                        <div class="hobbies-grid">
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <i data-lucide="music"></i>
+                                </div>
+                                <div class="hobby-name">Classical Funk/Gypsy Jazz</div>
+                            </div>
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <i data-lucide="scissors"></i>
+                                </div>
+                                <div class="hobby-name">Crochet Knitting</div>
+                            </div>
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <i data-lucide="palette"></i>
+                                </div>
+                                <div class="hobby-name">Digital art Miniature craft</div>
+                            </div>
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <i data-lucide="cat"></i>
+                                </div>
+                                <div class="hobby-name">Cat, cat and cat</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technical-column">
+                        <h2 class="section-title">Technical skills</h2>
+
+                        <div class="tech-skills">
+                            <div class="skill-bar">
+                                <div class="skill-header">
+                                    <span>Packaging</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-bar">
+                                <div class="skill-header">
+                                    <span>Visual design</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-bar">
+                                <div class="skill-header">
+                                    <span>UI/UX design</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-bar">
+                                <div class="skill-header">
+                                    <span>User Research</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-bar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="activities-section">
+                            <h3>Activities</h3>
+
+                            <div class="activities-timeline">
+                                <div class="activity-item">
+                                    <div class="activity-year">20</div>
+                                    <div class="activity-title">Danang Tui'2 exhibition</div>
+                                    <div class="activity-date">2020</div>
+                                </div>
+
+                                <div class="activity-item">
+                                    <div class="activity-year">19</div>
+                                    <div class="activity-title">Intern at Cocacola as a content designer and producer of
+                                        promotional materials</div>
+                                    <div class="activity-date">2019</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+
+                <div class="contact-grid">
+                    <div class="contact-info-column">
+                        <p class="contact-intro">
+                            I'm always open to new opportunities and collaborations. Feel free to reach out if you have
+                            a project in
+                            mind or just want to say hello!
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <i data-lucide="map-pin"></i>
+                                <div>
+                                    <h3>Location</h3>
+                                    <p>Bogr, Ind</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <i data-lucide="mail"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>alwanibrahim142@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <i data-lucide="phone"></i>
+                                <div>
+                                    <h3>Phone</h3>
+                                    <p>08 12 34 20 23 56</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-connect">
+                            <h3>Connect with me</h3>
+                            <div class="social-icons">
+                                <a href="https://behance.net/hannnb" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="behance"></i>
+                                </a>
+                                <a href="https://instagram.com/han.nnb" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="instagram"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/han-nnb" target="_blank" rel="noopener noreferrer">
+                                    <i data-lucide="linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="scroll-indicator">
+        <div class="scroll-icon">
+            <i data-lucide="chevron-down"></i>
+        </div>
+        <span>Scroll down</span>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
