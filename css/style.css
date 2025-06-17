@@ -960,12 +960,12 @@ img {
   width: 1.5rem;
   height: 1.5rem;
 }
-
+/*  */
 .gambar-berita {
   width: 300px;
   height: 200px;
   object-fit: cover;
-  
+
 }
 
 @keyframes bounce {
